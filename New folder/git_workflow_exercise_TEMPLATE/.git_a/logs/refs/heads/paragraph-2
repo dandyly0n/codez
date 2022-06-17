@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 8abc1bd48ea49843c7a84f3fe30be96f1806500c Frances Little <flittle@catalyte.io> 1649815510 -0400	branch: Created from HEAD
+8abc1bd48ea49843c7a84f3fe30be96f1806500c e555a44784865fe961088734248f7ba96a4cf2c4 Frances Little <flittle@catalyte.io> 1649815599 -0400	commit: changed COMPANIES to companies
+e555a44784865fe961088734248f7ba96a4cf2c4 2ae017a4dede17aa76228e3e4ff9353bcb6b6185 Frances Little <flittle@catalyte.io> 1649815780 -0400	commit: changed KEEP to keep
+2ae017a4dede17aa76228e3e4ff9353bcb6b6185 242946e91a394387a1d391639c5c5f526a7e644f Frances Little <flittle@catalyte.io> 1649815851 -0400	commit: changed TALENT to talent
+242946e91a394387a1d391639c5c5f526a7e644f 35ad7da2170f2992a4ee3d042b553edb94914fac Frances Little <flittle@catalyte.io> 1649816173 -0400	commit: changed CATALYTE to Catalyte
+35ad7da2170f2992a4ee3d042b553edb94914fac 242946e91a394387a1d391639c5c5f526a7e644f Frances Little <flittle@catalyte.io> 1649816274 -0400	reset: moving to HEAD~1
+242946e91a394387a1d391639c5c5f526a7e644f 35ad7da2170f2992a4ee3d042b553edb94914fac Frances Little <flittle@catalyte.io> 1649816875 -0400	pull origin paragraph-2: Fast-forward
+35ad7da2170f2992a4ee3d042b553edb94914fac 437a39ad33dc394bf1536645d6e94cad25e3e9f1 Frances Little <flittle@catalyte.io> 1649817220 -0400	commit: changed Catalyte back to CATALYTE bc I forgot merge p2

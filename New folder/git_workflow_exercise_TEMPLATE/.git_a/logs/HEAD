@@ -1,0 +1,44 @@
+0000000000000000000000000000000000000000 bf3734798db727fd2cd2efa523ccec3cde4ffacb Frances Little <flittle@catalyte.io> 1649813422 -0400	clone: from gitlab.ce.catalyte.io:training/cycleworkinggroups/nationwide/shared-projects/dev-basics/git_workflow_exercise_TEMPLATE.git
+bf3734798db727fd2cd2efa523ccec3cde4ffacb bf3734798db727fd2cd2efa523ccec3cde4ffacb Frances Little <flittle@catalyte.io> 1649814209 -0400	checkout: moving from main to paragraph-1
+bf3734798db727fd2cd2efa523ccec3cde4ffacb eaf3c85428bc9b1140c31775de113934e1a3e624 Frances Little <flittle@catalyte.io> 1649814365 -0400	commit: changed DIVERSE to diverse
+eaf3c85428bc9b1140c31775de113934e1a3e624 1e514f3b0e191a39672b987f28821d9befaf5e00 Frances Little <flittle@catalyte.io> 1649814552 -0400	commit: changed TALENT to talent
+1e514f3b0e191a39672b987f28821d9befaf5e00 01f5d6e5b794b1b2a7d7f93db9dbd438245dc6b1 Frances Little <flittle@catalyte.io> 1649814709 -0400	commit: changed ACCELERATES to accelerates
+01f5d6e5b794b1b2a7d7f93db9dbd438245dc6b1 8abc1bd48ea49843c7a84f3fe30be96f1806500c Frances Little <flittle@catalyte.io> 1649814796 -0400	commit: changed OUTCOMES to outcomes
+8abc1bd48ea49843c7a84f3fe30be96f1806500c bf3734798db727fd2cd2efa523ccec3cde4ffacb Frances Little <flittle@catalyte.io> 1649814913 -0400	checkout: moving from paragraph-1 to main
+bf3734798db727fd2cd2efa523ccec3cde4ffacb 8abc1bd48ea49843c7a84f3fe30be96f1806500c Frances Little <flittle@catalyte.io> 1649814964 -0400	merge paragraph-1: Fast-forward
+8abc1bd48ea49843c7a84f3fe30be96f1806500c 943063bdf9d547b81335c60eb735f4ce11243a69 Frances Little <flittle@catalyte.io> 1649815220 -0400	commit: changes COMPANIES to companies
+943063bdf9d547b81335c60eb735f4ce11243a69 8abc1bd48ea49843c7a84f3fe30be96f1806500c Frances Little <flittle@catalyte.io> 1649815358 -0400	reset: moving to HEAD~1
+8abc1bd48ea49843c7a84f3fe30be96f1806500c 8abc1bd48ea49843c7a84f3fe30be96f1806500c Frances Little <flittle@catalyte.io> 1649815510 -0400	checkout: moving from main to paragraph-2
+8abc1bd48ea49843c7a84f3fe30be96f1806500c e555a44784865fe961088734248f7ba96a4cf2c4 Frances Little <flittle@catalyte.io> 1649815599 -0400	commit: changed COMPANIES to companies
+e555a44784865fe961088734248f7ba96a4cf2c4 2ae017a4dede17aa76228e3e4ff9353bcb6b6185 Frances Little <flittle@catalyte.io> 1649815780 -0400	commit: changed KEEP to keep
+2ae017a4dede17aa76228e3e4ff9353bcb6b6185 242946e91a394387a1d391639c5c5f526a7e644f Frances Little <flittle@catalyte.io> 1649815851 -0400	commit: changed TALENT to talent
+242946e91a394387a1d391639c5c5f526a7e644f 35ad7da2170f2992a4ee3d042b553edb94914fac Frances Little <flittle@catalyte.io> 1649816173 -0400	commit: changed CATALYTE to Catalyte
+35ad7da2170f2992a4ee3d042b553edb94914fac 242946e91a394387a1d391639c5c5f526a7e644f Frances Little <flittle@catalyte.io> 1649816274 -0400	reset: moving to HEAD~1
+242946e91a394387a1d391639c5c5f526a7e644f 35ad7da2170f2992a4ee3d042b553edb94914fac Frances Little <flittle@catalyte.io> 1649816875 -0400	pull origin paragraph-2: Fast-forward
+35ad7da2170f2992a4ee3d042b553edb94914fac 437a39ad33dc394bf1536645d6e94cad25e3e9f1 Frances Little <flittle@catalyte.io> 1649817220 -0400	commit: changed Catalyte back to CATALYTE bc I forgot merge p2
+437a39ad33dc394bf1536645d6e94cad25e3e9f1 8abc1bd48ea49843c7a84f3fe30be96f1806500c Frances Little <flittle@catalyte.io> 1649817564 -0400	checkout: moving from paragraph-2 to main
+8abc1bd48ea49843c7a84f3fe30be96f1806500c 437a39ad33dc394bf1536645d6e94cad25e3e9f1 Frances Little <flittle@catalyte.io> 1649817632 -0400	merge paragraph-2: Fast-forward
+437a39ad33dc394bf1536645d6e94cad25e3e9f1 437a39ad33dc394bf1536645d6e94cad25e3e9f1 Frances Little <flittle@catalyte.io> 1649817721 -0400	checkout: moving from main to paragraph-3
+437a39ad33dc394bf1536645d6e94cad25e3e9f1 cb92413d0acbe1125012bdd12e0eed43bfd34216 Frances Little <flittle@catalyte.io> 1649817874 -0400	commit: changed CATALYTE to Catalyte
+cb92413d0acbe1125012bdd12e0eed43bfd34216 c24e01a98a4b9bf8e5df61a6e20f2fd5d03ff0f7 Frances Little <flittle@catalyte.io> 1649818035 -0400	commit: changed FELLOW to fellow
+c24e01a98a4b9bf8e5df61a6e20f2fd5d03ff0f7 2af6c597f4f6ca3e93f4713302ba0dda07e66523 Frances Little <flittle@catalyte.io> 1649818144 -0400	commit: changed PROPOSED to proposed
+2af6c597f4f6ca3e93f4713302ba0dda07e66523 a7e09f1a02eb6ef25f97916531f9cafce512513b Frances Little <flittle@catalyte.io> 1649818243 -0400	commit: changed POPULATIONS to populations
+a7e09f1a02eb6ef25f97916531f9cafce512513b 62fa86b674c096437522fcc2e5ccf9085dcbcb17 Frances Little <flittle@catalyte.io> 1649818385 -0400	commit: chnaged FIELD to field
+62fa86b674c096437522fcc2e5ccf9085dcbcb17 b2b7f484797f03d67acc1ff662088ce5ee763100 Frances Little <flittle@catalyte.io> 1649818473 -0400	commit: changed ABILITY to ability
+b2b7f484797f03d67acc1ff662088ce5ee763100 437a39ad33dc394bf1536645d6e94cad25e3e9f1 Frances Little <flittle@catalyte.io> 1649818509 -0400	checkout: moving from paragraph-3 to main
+437a39ad33dc394bf1536645d6e94cad25e3e9f1 b2b7f484797f03d67acc1ff662088ce5ee763100 Frances Little <flittle@catalyte.io> 1649818522 -0400	merge paragraph-3: Fast-forward
+b2b7f484797f03d67acc1ff662088ce5ee763100 b2b7f484797f03d67acc1ff662088ce5ee763100 Frances Little <flittle@catalyte.io> 1649818582 -0400	checkout: moving from main to paragraph-4
+b2b7f484797f03d67acc1ff662088ce5ee763100 b3f3e9905251437f8d9a5b58de9f22d43f1917be Frances Little <flittle@catalyte.io> 1649819555 -0400	commit: changed DATA to data
+b3f3e9905251437f8d9a5b58de9f22d43f1917be 8484c488c349db9e588bcd0d78a7994df0d6b0a3 Frances Little <flittle@catalyte.io> 1649819837 -0400	commit: changed REMOVES to removes
+8484c488c349db9e588bcd0d78a7994df0d6b0a3 5610c928878a0266f15aebd0302300a74b0b260d Frances Little <flittle@catalyte.io> 1649820318 -0400	commit: changed BIASES to biases
+5610c928878a0266f15aebd0302300a74b0b260d d5a7785e5f109db33a7a412e60b8a0ecb45c9d59 Frances Little <flittle@catalyte.io> 1649820401 -0400	commit: changed CANDIDATES to candidates
+d5a7785e5f109db33a7a412e60b8a0ecb45c9d59 9184eb7e677d6a8a559243899214346999dc55bd Frances Little <flittle@catalyte.io> 1649820485 -0400	commit: changed CREATE to create
+9184eb7e677d6a8a559243899214346999dc55bd 6948996757d21af5c10d643ae42f53e52f4b66ec Frances Little <flittle@catalyte.io> 1649820611 -0400	commit: changed SUSTAINABLE to sustainable
+6948996757d21af5c10d643ae42f53e52f4b66ec 103a6cdf731a66df1c5dceb718a9d4858e95f5df Frances Little <flittle@catalyte.io> 1649820861 -0400	commit: changed BUSINESS to business
+103a6cdf731a66df1c5dceb718a9d4858e95f5df b2b7f484797f03d67acc1ff662088ce5ee763100 Frances Little <flittle@catalyte.io> 1649820902 -0400	checkout: moving from paragraph-4 to main
+b2b7f484797f03d67acc1ff662088ce5ee763100 103a6cdf731a66df1c5dceb718a9d4858e95f5df Frances Little <flittle@catalyte.io> 1649820975 -0400	merge paragraph-4: Fast-forward
+103a6cdf731a66df1c5dceb718a9d4858e95f5df 8abc1bd48ea49843c7a84f3fe30be96f1806500c Frances Little <flittle@catalyte.io> 1649856789 -0400	checkout: moving from main to paragraph-1
+8abc1bd48ea49843c7a84f3fe30be96f1806500c 437a39ad33dc394bf1536645d6e94cad25e3e9f1 Frances Little <flittle@catalyte.io> 1649856829 -0400	checkout: moving from paragraph-1 to paragraph-2
+437a39ad33dc394bf1536645d6e94cad25e3e9f1 b2b7f484797f03d67acc1ff662088ce5ee763100 Frances Little <flittle@catalyte.io> 1649856845 -0400	checkout: moving from paragraph-2 to paragraph-3
+b2b7f484797f03d67acc1ff662088ce5ee763100 103a6cdf731a66df1c5dceb718a9d4858e95f5df Frances Little <flittle@catalyte.io> 1649856903 -0400	checkout: moving from paragraph-3 to paragraph-4
+103a6cdf731a66df1c5dceb718a9d4858e95f5df 103a6cdf731a66df1c5dceb718a9d4858e95f5df Frances Little <flittle@catalyte.io> 1649856916 -0400	checkout: moving from paragraph-4 to main

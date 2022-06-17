@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 bf3734798db727fd2cd2efa523ccec3cde4ffacb Frances Little <flittle@catalyte.io> 1649813422 -0400	clone: from gitlab.ce.catalyte.io:training/cycleworkinggroups/nationwide/shared-projects/dev-basics/git_workflow_exercise_TEMPLATE.git
+bf3734798db727fd2cd2efa523ccec3cde4ffacb 8abc1bd48ea49843c7a84f3fe30be96f1806500c Frances Little <flittle@catalyte.io> 1649814964 -0400	merge paragraph-1: Fast-forward
+8abc1bd48ea49843c7a84f3fe30be96f1806500c 943063bdf9d547b81335c60eb735f4ce11243a69 Frances Little <flittle@catalyte.io> 1649815220 -0400	commit: changes COMPANIES to companies
+943063bdf9d547b81335c60eb735f4ce11243a69 8abc1bd48ea49843c7a84f3fe30be96f1806500c Frances Little <flittle@catalyte.io> 1649815358 -0400	reset: moving to HEAD~1
+8abc1bd48ea49843c7a84f3fe30be96f1806500c 437a39ad33dc394bf1536645d6e94cad25e3e9f1 Frances Little <flittle@catalyte.io> 1649817632 -0400	merge paragraph-2: Fast-forward
+437a39ad33dc394bf1536645d6e94cad25e3e9f1 b2b7f484797f03d67acc1ff662088ce5ee763100 Frances Little <flittle@catalyte.io> 1649818522 -0400	merge paragraph-3: Fast-forward
+b2b7f484797f03d67acc1ff662088ce5ee763100 103a6cdf731a66df1c5dceb718a9d4858e95f5df Frances Little <flittle@catalyte.io> 1649820975 -0400	merge paragraph-4: Fast-forward
