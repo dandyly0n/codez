@@ -1,0 +1,24 @@
+Generate shuffled number buttons 1-25
+	if numbers clicked in correct order
+	then button turns different color
+	if numbers clicked incorrect order, nothing happens.
+When all number buttons are clicked correctly, text says "You win!"
+
+What data is involved?
+Start button, number buttons, array, numbers
+
+How to process that data to get it into the form I want?
+
+
+This program will generate shuffled number buttons that must be clicked in the correct order to win.
+
+LIST:
+Click Start Button
+Generate 25 buttons with sequential numbers.
+Shuffle number buttons.
+Print buttons on to screen.
+Click buttons in correct order.
+If correct button clicked, color change and progress.
+If incorrect button clicked, nothing happens.
+When all buttons clicked, text appears saying "You win!"
+

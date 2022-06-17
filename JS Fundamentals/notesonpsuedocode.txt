@@ -1,0 +1,70 @@
+
+1. Understand the problem.
+	Read through ALL requirements.
+	Try restating the problem.
+
+2. Define some test cases.
+
+3. Solve the problem in plain English.
+
+4. Test the English solution using test cases.
+
+5. Code out solution.
+
+6. Test the code solution using our test cases.
+
+
+
+Questions to ask:
+
+What data is in this problem?
+	Names
+	Dates
+	Lists
+	Times
+
+What data structures do I need to model that data?
+	String
+	Object
+	Array
+	Number
+
+How to I process this data to get it into the form I need?
+
+What control flow do I need to process that data?
+
+What data do I need to output?
+	String
+	Object
+	Array
+	Number
+
+What functions, methods, or APIs are available to let me perform this processing?
+
+
+*
+Example problem:
+Convert a full name to a first and last name.
+
+Full names:
+Frances Little
+Emma Alexandra
+Avery Ruel
+
+What data is in this problem?
+A full name.
+
+What data structures do I need to model that data?
+A string.
+
+How do you process this data to get it into the form I need?
+I need a first name and last name, so I need two STRINGS. The first and last names are split up by a space. So I need to find the space in the full name and split the full name string at the space.
+
+What control flow do I need to process that data?
+I need to loop over the full name string character by characteruntil I find the space and then split the string at the index of that space.
+
+What data do I need to output?
+Two strings.
+
+What functions, methods, or APIs are available to let me perform this processing?
+Strings have a split method.

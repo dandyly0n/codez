@@ -1,0 +1,53 @@
+English Translation Functional Requirements
+
+1. Put the error message in "error message here"
+2. When errors, display error list (unordered list in red text).
+
+3. If form has errors, the form will not be submitted. (preventDefault)
+4. If form has no errors, submit form.
+
+5. Only the form that has had it's validation button clicked is validated.
+
+
+6/7. If any "Required" inputs are blank, display error message. 
+(If an input is not required and is blank, no error message appears.)
+(isRequired)
+
+
+8. If input class of "numeric" has non-numeric character, display error:
+"Numeric fields must be a series of numbers." (isNumeric)
+
+9. "Required_size field lengths must exactly match the minlength attribute of that
+field." 
+11. "Username fields must contain at least 8 characters." (isMinimum)
+9/11: same utility function
+
+10. If input class "username" has non-alphanumeric character, display error:
+"Username fields must contain only alphanumeric characters." (isAlphanumeric)
+
+12. If input class "date" does not match XX/XX/XXXX format, display error:
+"Date fields must match the format of XX/XX/XXXX." (dateFormat)
+
+
+13. If input class "phone" does not match XXX-XXX-XXXX format, display error:
+"Date fields must match the format of XXX-XXX-XXXX." (phoneFormat)
+
+14. If input class "password" does not have one of each: uppercase letter, lowercase letter, number, special character
+display error: 
+"Password fields must contain one or more of each of the following types: uppercase letters, lowercase letters, numbers, special characters."
+(validPassword)
+
+15. If input class of "alphabetic" has non-alphabetic character, display error:
+"Alphabetic fields must be a series of alphabetic characters." (isAlphabetic)
+
+16. Don't forget inputs can have multiple classes and all must run.
+
+30%:
+
+1. No global variables.
+2. No outside validation libraries.
+3. No console.log, no pop-up alerts.
+4. Descriptive code comments for ALL functions
+5. Camel case must be used for all JS variable identifiers. (const/let)
+6. All functions are named (inc callbacks in the even handlers)
+7. All function names accurately describe it.

@@ -1,0 +1,13 @@
+h2 {
+    color: red; 
+    font-size: 14px;
+}
+p.color {
+    color:darkviolet;
+    font-size: medium;
+}
+
+h1, p {
+    color:blue;
+    text-align: center;
+}

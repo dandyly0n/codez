@@ -1,0 +1,121 @@
+//make function and give required objects
+//grab each quiz
+//compare each quiz submission date to date
+//save this filtered quiz to a new stack
+//grab each quiz
+//grab each name from the list of studentName
+//compare each quiz submission to name
+//if they match, cross name out from the list
+//return the remaining
+
+// const findUnsubmitted2 = (date, names, submissions); {
+//     const filterByDate = [];
+//     const filteredNames = [];
+//     submissions.forEach((submission) => {
+//         if (submission.submissionDate !== date) {
+//             filteredSubmissionsByDate.push(submission);
+//         }
+//     })
+//     filterByDate.forEach((submission) => {
+//         if (names.includes(submission.studentName)) {
+//             filteredNames.push(submission.studentName)
+//         }
+//     })
+// }
+
+// const filterSubmissionsByStudentId = filterByStudentId(3, studentSubmissions);
+// console.log(filterSubmissionsByStudentId);
+
+// //
+// const findUnsubmitted = (unsubmitted, submissions) => {
+//     const foundUnsubmitted = [];
+//     for (const submission of submissions) {
+//         if (submission.studentId === unsubmitted) {
+//             foundUnsubmitted.push(submission);
+//         }
+//     }
+//     return findUnsubmitted;
+// }
+
+// const foundUnsubmitted = filterByStudentId(3, studentSubmissions);
+// console.log(filterSubmissionsByStudentId);
+
+// //remove students who have submitted on a certain date, remove them and return the list. find student and then remove. we only care if their name is on the list and they are on the date
+
+
+
+const findUnsubmitted = (date, names, submissions) => {
+    //create an array to hold the filtered by date submissions.
+    const filteredSubmissionsByDate = [];
+    // create an array to hold the filtered by names (for the second loop)
+    const filteredNames = [];
+    // for each submission OF submissions check to see IF the date is NOT EQUAL to given DATE
+    // IF IT IS NOT EQUAL add(push) the entire submission to "filteredSubmissionsByDate"
+    for (const submission of submissions) {
+        if (submission.submissionDate !== date) {
+            filteredSubmissionsByDate.push(submission);
+        }
+    }
+
+
+    for (const submission of filteredSubmissionsByDate) {
+        if (names.includes(submission.studentName)) {
+            filteredNames.push(submission.studentName);
+
+        }
+
+    }
+    return filteredNames;
+}
+const findUnsubmittedTest = findUnsubmitted('January 1 2022', names, studentSubmissions);
+console.log(findUnsubmittedTest)
+
+
+const findUnsubmitted = (date, names, submissions) => {
+    const filteredSubmissionsByDate = [];
+    const filteredNames = [];
+    for (const submission of submissions) {
+        if (submission.submissionDate !== date) {
+            filteredSubmissionsByDate.push(submission);
+        }
+    }
+
+
+    for (const submission of filteredSubmissionsByDate) {
+        if (names.includes(submission.studentName)) {
+            filteredNames.push(submission.studentName);
+
+        }
+
+    }
+    return filteredNames;
+}
+const findUnsubmittedTest = findUnsubmitted('January 1 2022', names, studentSubmissions);
+console.log(findUnsubmittedTest)
+
+    // NOW FOR EACH submission OF "filteredSubmissionsByDate"
+    // check to see if the name is also in the 'names' array.
+    // IF TRUE add(push) the Student Name of the Submission to the filteredNames list.
+
+
+const findUnsubmitted = (date, names, submissions) => {
+    const filteredSubmissionsByDate = [];
+    const filteredNames = [];
+    for (const submission of submissions) {
+        if (submission.submissionDate !== date) {
+            filteredSubmissionsByDate.push(submission);
+        }
+    }
+
+
+    for (const submission of filteredSubmissionsByDate) {
+        if (names.includes(submission.studentName)) {
+            filteredNames.push(submission.studentName);
+
+        }
+
+    }
+    return filteredNames;
+}
+const findUnsubmittedTest = findUnsubmitted('January 1 2022', names, studentSubmissions);
+console.log(findUnsubmittedTest)

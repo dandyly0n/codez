@@ -1,0 +1,71 @@
+"use strict";
+window.onload = () => {
+    calculatorApp()
+}
+const calculatorApp = () => {
+    const operandOne = document.getElementById("operandOne");
+    const operandTwo = document.getElementById("operandTwo");
+    const output = document.getElementById("output");
+    buttonEventListener()
+    // const addButton = document.getElementById("addButton");
+    // addButton.addEventListener("click", (event) => {
+    //     output.innerHTML = operandOne.valueAsNumber + operandTwo.valueAsNumber
+    // })
+
+    // const subtractButton = document.getElementById("subtractButton");
+    // subtractButton.addEventListener("click", (event) => {
+    //     output.innerHTML = operandOne.valueAsNumber - operandTwo.valueAsNumber
+    // })
+
+    // const multiplyButton = document.getElementById("multiplyButton");
+    // multiplyButton.addEventListener("click", (event) => {
+    //     output.innerHTML = operandOne.valueAsNumber * operandTwo.valueAsNumber
+    // })
+
+    // const divideButton = document.getElementById("divideButton");
+    // divideButton.addEventListener("click", (event) => {
+    //     if (operandTwo.value != 0) {
+    //         output.innerHTML = operandOne.valueAsNumber / operandTwo.valueAsNumber
+    //     }
+    //     else {
+    //         output.innerHTML = 'Error: Cannot divide by 0'
+    //     }
+    // })
+}
+
+
+
+
+
+
+
+const arithmatic = (operandOne, operator, operandTwo) => {
+    const operandOneAsNumber = operandOne.valueAsNumber;
+    const operandTwoAsNumber = operandTwo.valueAsNumber;
+    switch (operator) {
+        case "+": {
+            return operandOneAsNumber + operandTwoAsNumber;
+        }
+        case "-": {
+            return operandOneAsNumber - operandTwoAsNumber;
+        }
+        case "/": {
+            if (operandTwoAsNumber === 0) return 'Error: Cannot divide by 0'
+            return operandOneAsNumber / operandTwoAsNumber;
+        }
+        case "*": {
+            return operandOneAsNumber * operandTwoAsNumber;
+        }
+    }
+
+}
+
+
+const setOutput = (value) => {
+    output.innerHTML = value;
+}
+
+const buttonEventListener = () => {
+    const buttons = document.getElementsByTagName("button");
+    buttons.forEach((btn) => btn.addEventListener('click', (event) => setOutput(arithmatic(operandOne, event.currentTarget.value, operandTwo))))
+}

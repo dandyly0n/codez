@@ -1,0 +1,11 @@
+for loop - used when you are not looping an array.
+	Need to do something a set amount of times.
+	If you need to modify the array or access the index.
+	If you want to start the loop at a different point in the array
+	besides 0. If you want to go backwards.
+	
+for-of loop (semantic) - used only when you ARE looping an array. 
+	Simpler and more concise, easily understood syntax.
+	Anytime you don't need to acces the index (i).
+	
+

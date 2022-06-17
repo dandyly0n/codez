@@ -1,0 +1,52 @@
+Data Types
+Data types are the classifications we give to the different kinds of data that we use in programming. In JavaScript, there are seven fundamental data types:
+
+Number: Any number, including numbers with decimals: 4, 8, 1516, 23.42.
+String: Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single quotes: ' ... ' or double quotes " ... ", though we prefer single quotes. Some people like to think of string as a fancy word for text.
+Boolean: This data type only has two possible values— either true or false (without quotes). It’s helpful to think of booleans as on and off switches or as the answers to a “yes” or “no” question.
+Null: This data type represents the intentional absence of a value, and is represented by the keyword null (without quotes).
+Undefined: This data type is denoted by the keyword undefined (without quotes). It also represents the absence of a value though it has a different use than null. undefined means that a given value does not exist.
+Symbol: A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now.
+Object: Collections of related data.
+The first 6 of those types are considered primitive data types. They are the most basic data types in the language. Objects are more complex, and you’ll learn much more about them as you progress through JavaScript. At first, seven types may not seem like that many, but soon you’ll observe the world opens with possibilities once you start leveraging each one. As you learn more about objects, you’ll be able to create complex collections of data.
+
+StackOverflow, W3Schools, MDN, FreeCodeCamp
+w3 - html/css, not JS
+stackoverflow - questions forum, errors
+MDN - bit dense but good for JS, MDN also gets linked by VSCode whenever you hover over properties and things
+
+
+
+The remainder operator, sometimes called modulo, returns the number that remains after the right-hand number divides into the left-hand number as many times as it evenly can: 11 % 3 equals 2 because 3 fits into 11 three times, leaving 2 as the remainder.
+
+
+
+String Concatenation
+Operators aren’t just for numbers! When a + operator is used on two strings, it appends the right string to the left string:
+
+console.log('hi' + 'ya'); // Prints 'hiya'
+console.log('wo' + 'ah'); // Prints 'woah'
+console.log('I love to ' + 'code.')
+// Prints 'I love to code.'
+
+Methods
+Remember that methods are actions we can perform. Data types have access to specific methods that allow us to handle instances of that data type. 
+JavaScript provides a number of string methods.
+
+We call, or use, these methods by appending an instance with:
+
+a period (the dot operator)
+the name of the method
+opening and closing parentheses
+
+Chaining and Nesting Conditionals:
+The first example will run two separate conditions, the second will only compare if the first meets a given condition
+
+While Loop Example: 5 times, printing 0-4 in sequence
+
+
+both have to be true for && only one for ||
+logical short circuit - If you only have to evaluate the first operator and don't have to look at the second logical short circuit first one is false for && 
+while loop do while loop - do while loop will run one time before execute 1 time before checking
+while loop vs for loop - generally, a while loop is run when we're not sure how many times its going to run, for loop specifies how many times its going to run. for loops also do all of the things a while loop inside their body.
+infinite loop & how to avoid - when you forget to update a condition or something that would run an infinite amount of times, avoid them by updating so it has condition

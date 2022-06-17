@@ -1,0 +1,80 @@
+// const observationNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, ]
+// const shuffledArray = observationNumbers.sort((a, b) => 0.5 - Math.random());
+
+/**
+ * Generates an array of numbers 1-25 (max), then shuffles those numbers and returns them.
+ * @param {number} max 
+ * @returns {array} shuffledNumbers
+ */
+const generateNumbers = (max) => {
+    const numbers = [];
+    for (let i = 1; i <= max; i++) { numbers.push(i) }
+    return numbers
+}
+
+const shuffleNumbers = (numbers) => {
+    return numbers.sort((a, b) => 0.5 - Math.random());
+}
+
+// test for generate and shuffle
+// console.log(generateAndShuffleNumbers(25))
+
+const addButton = (number, parent) => {
+    let btn = document.createElement('button')
+    btn.innerHTML = number
+    btn.type = 'button'
+    btn.classList.add('tile')
+    parent.appendChild(btn)
+}
+
+// test for generating button.
+// addButton(5);
+
+const newRow = (parent) => {
+    const row = document.createElement('tr')
+    parent.appendChild(row)
+    return row;
+}
+
+
+const renderGame = (inputArray, columnCount) => {
+    const gameBoard = document.getElementById('gameBoard');
+    let currentRow;
+    for (let i = 0; i < inputArray.length; i++) {
+        if ((i % columnCount) === 0) {
+            currentRow = newRow(gameBoard);
+        }
+        addButton(inputArray[i], currentRow)
+    }
+}
+
+
+let numbers;
+const handleGenerate = () => {
+    numbers = generateNumbers(25)
+    renderGame(numbers, 5)
+    removeListener('start', handleGenerate)
+    addListener('start', handleStart)
+}
+
+const handleStart = () => {
+    numbers = shuffleNumbers(numbers)
+    renderGame(numbers, 5);
+}
+
+
+const addListener = (id, handler) => {
+    const btn = document.getElementById(id);
+    btn.addEventListener('click', handler);
+}
+const removeListener = (id, handler) => {
+    const btn = document.getElementById(id);
+    btn.removeEventListener('click', handler);
+}
+
+window.onload = () => {
+    addListener('start', handleGenerate)
+}
+
+
+
